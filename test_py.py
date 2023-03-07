@@ -8,7 +8,7 @@ def test_get_website_title():
 
 def test_random():
     ret = main.random()
-    assert ret == 7
+    assert ret == 6
 
 
 def test_website_language():
