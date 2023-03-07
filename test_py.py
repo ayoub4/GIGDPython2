@@ -1,5 +1,6 @@
 import main
 
+
 def test_get_website_title():
     title = main.get_website_title('https://www.google.com')
     assert 'Google' in title
@@ -13,5 +14,3 @@ def test_random():
 def test_website_language():
     response = main.website_language()
     assert response == 'en'
-
-
