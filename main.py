@@ -20,7 +20,7 @@ def website_language():
 
 
 def random():
-    return 5+2
+    return 6+1
 
 
 
