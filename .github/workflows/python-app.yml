@@ -12,14 +12,16 @@ on:
 permissions:
   contents: read
   
-env:
-  TEAMS_WEBHOOK_URL: 'https://ofpptcasa.webhook.office.com/webhookb2/9357c2cf-f188-462e-86e0-02a09ddcb154@dae54ad7-43df-47b7-ae86-4ac13ae567af/IncomingWebhook/8fcc3cef1db24588a91dc4101daca6ff/d23e1664-7319-4a34-bd32-512fc6772eb9'
+
 
 
 jobs:
   build:
 
     runs-on: ubuntu-latest
+    timeout-minutes: 5 
+
+
 
     steps:
     - uses: actions/checkout@v3
